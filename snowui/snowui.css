@@ -901,23 +901,3 @@ body.dark-mode #darkmode {
     color: black;
     cursor: pointer;
 }
-
-@media (min-width: 393px) {
-body{
-    width: 393px;
-    margin-inline: auto;
-    padding: 0 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;}
-
-   nav {
-    display:none;
-   }
-   .flex-item1,.flex-item2{
-    width: 176px;
-   }
-}
-}
